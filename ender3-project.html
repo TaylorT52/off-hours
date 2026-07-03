@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>[name here] | Ender 3 Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-shell site-nav">
+        <a class="site-brand" href="index.html">[name here]</a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="about.html">About</a>
+          <a href="people.html">People</a>
+          <a class="is-active" href="work.html">What We're Working On</a>
+          <a class="nav-contact" href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero site-shell">
+        <div class="page-hero-panel">
+          <p class="section-label">Project</p>
+          <h1 class="page-title">Customizing an Ender 3 printer.</h1>
+        </div>
+      </section>
+
+      <section class="section site-shell">
+        <div class="section-grid project-layout">
+          <div class="card card-wide">
+            <img
+              class="project-image project-image-large"
+              src="E6360CF3-A839-46A5-A9FD-770DEB70357E_1_105_c.jpeg"
+              alt="Ender 3 printer project"
+            />
+            <p class="portfolio-tag">In progress</p>
+            <h2>Project overview</h2>
+            <p>
+              Ender 3 printers are common open-source machines, but they are
+              still fairly manual and a little rough around the edges. There is
+              no automatic bed leveling by default, setup can be finicky, and
+              getting consistently good prints usually takes iteration.
+            </p>
+            <p>
+              The goal of this page is to track upgrades, fixes, calibration
+              notes, and what changes actually make the printer better over
+              time.
+            </p>
+          </div>
+          <div class="card about-aside">
+            <h3>What I’m tracking</h3>
+            <ul>
+              <li>printer upgrades and quality-of-life improvements</li>
+              <li>better calibration and more reliable print settings</li>
+              <li>experiments with materials, parts, and workflows</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section site-shell">
+        <div class="section-heading">
+          <p class="section-label">Project Log</p>
+          <h2>Weekly updates.</h2>
+        </div>
+        <div class="project-log">
+          <article class="card project-entry">
+            <p class="project-entry-date">Week of 07/22</p>
+            <h3>Starting point</h3>
+            <div class="project-update-gallery">
+              <img
+                class="project-update-image"
+                src="80466608554__97B093AC-11C9-4A9D-948C-F011166701DA.HEIC"
+                alt="Weekly update photo for the Ender 3 project"
+              />
+              <img
+                class="project-update-image"
+                src="Screenshot 2026-07-03 at 1.55.40 PM.png"
+                alt="Screenshot from the Ender 3 project update"
+              />
+            </div>
+            <p>
+              First step was to get the printer running. Unfortunately, with a 7 year old second-hand printer, 
+              something's bound to go wrong, and a bearing for loading the PLA into the extruder broke off. So, 
+              I ordered a replacement piece so I can start printing! Next steps - print, automatic bed leveling,
+              and setting up a Raspberry Pi server so I don't have to load images manually with an SD card. 
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
